@@ -1,31 +1,31 @@
-li{
-	display: inline;
-
-}
-
-li a {
-	padding-right: 10px;
-	color: #604d39;
-  	text-decoration: none;
-  	text-shadow: 1px 1px 1px black;
-}
-
-a:hover {
-	color: white;
-}
-
-#profile{
-	display: block;
-	margin: auto;
-	border-radius: 150px;
+.header {
+  padding-top: 10%;
+  margin-bottom: 50px;
 }
 
 #headerh1 {
   color: #604d39;
-  font-family: Times New Roman;
+  font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
   font-size: 70px;
   text-align: center;
   text-shadow: 2px 2px 10px black;
+}
+
+#headerh2 {
+  color: #604d39;
+  font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 3px solid #504130;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 10px black;
+  box-shadow: 0px 2px black;
+}
+
+img{
+  margin: auto;
+  display: block;
+  border-radius: 120px;
 }
 
 body {
