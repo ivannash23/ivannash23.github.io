@@ -1,1 +1,33 @@
-/* custom styles */
+li{
+	display: inline;
+
+}
+
+li a {
+	padding-right: 10px;
+	color: #604d39;
+  	text-decoration: none;
+  	text-shadow: 1px 1px 1px black;
+}
+
+a:hover {
+	color: white;
+}
+
+img{
+	display: block;
+	margin: auto;
+	border-radius: 150px;
+}
+
+#headerh1 {
+  color: #604d39;
+  font-family: Times New Roman;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+body {
+  background: url(http://wallpapercave.com/wp/NgGpPPi.jpg);
+}
