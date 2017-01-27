@@ -2,53 +2,40 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
-}
+    width: 101px;
 
-li{
-  float: left;
 }
 
 li a {
-    display: block;
-    color: #604d39;
-    text-align: center;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-shadow: 2px 2px 10px black;
-}
-
-.header {
-  padding-top: 10%;
-  margin-bottom: 50px;
-}
-
-#headerh1 {
-  color: #604d39;
-  font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
-  font-size: 70px;
+  text-decoration: none;
+  color: white;
+  padding: 4px;
   text-align: center;
-  text-shadow: 2px 2px 10px black;
+  display: inline-block;
+  width: 100px;
+  font-size: 20px;
 }
 
-#headerh2 {
-  color: #604d39;
-  font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
-  font-size: 30px;
-  text-align: center;
-  border-bottom: 3px solid #504130;
-  padding-bottom: 20px;
-  text-shadow: 2px 2px 10px black;
-  box-shadow: 0px 2px black;
+li a:hover {
+  color: white;
+  text-shadow: 2px 2px 10px white;
 }
 
-img{
-  box-shadow: 10px 10px 10px black;
-  margin: auto;
-  display: block;
-  border-radius: 120px;
+li a img {
+  box-shadow: 2px 2px 10px white;
+  border-radius: 10px;
+  height: 90px;
+  width: 90px;
 }
+
+.bigName{
+  display:inline-block;
+  color: white;
+  
+}
+
 
 body {
-  background: url(http://wallpapercave.com/wp/NgGpPPi.jpg);
+  background: url(http://openwalls.com/image/11194/sunset_behind_the_earth_2880x900.jpg);
+  background-repeat: no-repeat;
 }
