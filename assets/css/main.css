@@ -10,11 +10,14 @@ work-a, contact-a{
 	color: blue;
 }
 
+.thumbnail{
+  height: 500px;
+}
+
 
 body {
   background: url(../imgs/background-image.jpg);
   background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .page-header, i, h4{

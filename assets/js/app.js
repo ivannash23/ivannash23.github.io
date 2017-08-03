@@ -64,7 +64,7 @@ $(".work-a").click(function() {
         var description = trabalhos[i].description;
         var url = trabalhos[i].url;
 
-        $(".row").append(`<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><div class="thumbnail" height="500px" ><div class="caption"><h3><a href="${url}">${name}</a></h3><img class="img-responsive" src="${picture}" alt="${name}"><p>${description}</p></div></div></div>`);
+        $(".row").append(`<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><div class="thumbnail"><div class="caption"><h3><a href="${url}">${name}</a></h3><img class="img-responsive" src="${picture}" alt="${name}"><p>${description}</p></div></div></div>`);
 
     }
 });
